@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"resolveJsonModule": true,
+		"target": "ESNext",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"strict": true,
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"esModuleInterop": true,
+		"strictPropertyInitialization": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": "./src",
+		"paths": {
+			// "@http/*": ["http/*"],
+			// "@models/*": ["models/*"],
+			// "@services/*": ["services/*"],
+			"@config/*": ["config/*"],
+			"@shared/*": ["shared/*"]
+		}
+	}
+}
